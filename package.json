@@ -1,0 +1,20 @@
+{
+  "name": "survey-bot-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Travis Rollins",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "express-cors": "0.0.3",
+    "ibm-watson": "^4.4.0",
+    "nodemon": "^1.19.1"
+  }
+}
